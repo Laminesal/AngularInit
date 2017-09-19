@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrateur\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bootstrap@4.0.0-beta
+
+PATH: 
+  C:\Users\Administrateur\Downloads\cmder\bin;C:\Users\Administrateur\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Administrateur\Downloads\cmder\vendor\conemu-maximus5;C:\Users\Administrateur\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_131\bin;C:\STS\apache-maven-3.5.0\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\PostgreSQL\pg96\bin;C:\Program Files\nodejs\;C:\Ruby24-x64\bin;C:\Users\Administrateur\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrateur\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\Administrateur\Downloads\cmder\
+
+Yarn version: 
+  1.0.2
+
+Node version: 
+  6.11.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^4.2.4",
+      "@angular/common": "^4.2.4",
+      "@angular/compiler": "^4.2.4",
+      "@angular/core": "^4.2.4",
+      "@angular/forms": "^4.2.4",
+      "@angular/http": "^4.2.4",
+      "@angular/platform-browser": "^4.2.4",
+      "@angular/platform-browser-dynamic": "^4.2.4",
+      "@angular/router": "^4.2.4",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.4.2",
+      "zone.js": "^0.8.14"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.4.2",
+      "@angular/compiler-cli": "^4.2.4",
+      "@angular/language-service": "^4.2.4",
+      "@types/jasmine": "~2.5.53",
+      "@types/jasminewd2": "~2.0.2",
+      "@types/node": "~6.0.60",
+      "codelyzer": "~3.1.1",
+      "jasmine-core": "~2.6.2",
+      "jasmine-spec-reporter": "~4.1.0",
+      "karma": "~1.7.0",
+      "karma-chrome-launcher": "~2.1.1",
+      "karma-cli": "~1.0.1",
+      "karma-coverage-istanbul-reporter": "^1.2.1",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.1.2",
+      "ts-node": "~3.2.0",
+      "tslint": "~5.3.2",
+      "typescript": "~2.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Administrateur\Documents\AngularInit\my-app\node_modules\node-sass\vendor\win32-x64-48\binding.node'
+      at Error (native)
